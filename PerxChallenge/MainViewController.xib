@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="PerxChallenge" customModuleProvider="target">
+            <connections>
+                <outlet property="searchBar" destination="O2S-0H-W6l" id="LIc-29-CTQ"/>
+                <outlet property="tableView" destination="RIo-HR-I0s" id="sQP-an-Kg2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="QcZ-Fg-tdp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5UK-qJ-kNW">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="O2S-0H-W6l">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="LZf-ad-kWb"/>
+                            </constraints>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="t2D-Ig-Zfe"/>
+                            </connections>
+                        </searchBar>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RIo-HR-I0s">
+                            <rect key="frame" x="0.0" y="40" width="393" height="719"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="27C-Rg-8yF"/>
+                                <outlet property="delegate" destination="-1" id="8Ac-99-u81"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="5UK-qJ-kNW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="6E0-at-BxE"/>
+                <constraint firstItem="5UK-qJ-kNW" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Vgy-Z5-FOE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="5UK-qJ-kNW" secondAttribute="bottom" id="deu-KH-GRN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5UK-qJ-kNW" secondAttribute="trailing" id="waf-YI-oFO"/>
+            </constraints>
+            <point key="canvasLocation" x="13" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -8,26 +8,74 @@
 
 /* Begin PBXBuildFile section */
 		1AE5F03929910E5E0050EF40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F03829910E5E0050EF40 /* AppDelegate.swift */; };
-		1AE5F03B29910E5E0050EF40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F03A29910E5E0050EF40 /* SceneDelegate.swift */; };
 		1AE5F03D29910E5E0050EF40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F03C29910E5E0050EF40 /* ViewController.swift */; };
 		1AE5F04029910E5E0050EF40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5F03E29910E5E0050EF40 /* Main.storyboard */; };
 		1AE5F04229910E5F0050EF40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5F04129910E5F0050EF40 /* Assets.xcassets */; };
 		1AE5F04529910E5F0050EF40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5F04329910E5F0050EF40 /* LaunchScreen.storyboard */; };
+		1AE5F04D29910F180050EF40 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F04C29910F180050EF40 /* MainViewController.swift */; };
+		1AE5F04F29910F2B0050EF40 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5F04E29910F2B0050EF40 /* MainViewController.xib */; };
+		1AE5F0512991135D0050EF40 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F0502991135D0050EF40 /* NetworkClient.swift */; };
+		1AE5F053299114980050EF40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F052299114980050EF40 /* Constants.swift */; };
+		1AE5F05729911CC70050EF40 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F05629911CC70050EF40 /* SearchResponse.swift */; };
+		1AE5F059299120F20050EF40 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F058299120F20050EF40 /* SearchResultTableViewCell.swift */; };
+		1AE5F05B2991210F0050EF40 /* SearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5F05A2991210F0050EF40 /* SearchResultTableViewCell.xib */; };
+		1AE5F05E2991302C0050EF40 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F05D2991302C0050EF40 /* DetailViewController.swift */; };
+		1AE5F060299130470050EF40 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5F05F299130470050EF40 /* DetailViewController.xib */; };
+		1AE5F0632991306C0050EF40 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F0622991306C0050EF40 /* BaseViewModel.swift */; };
+		1AE5F065299130730050EF40 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F064299130730050EF40 /* BaseViewController.swift */; };
+		1AE5F067299130B40050EF40 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F066299130B40050EF40 /* DetailViewModel.swift */; };
+		1AE5F069299130E10050EF40 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F068299130E10050EF40 /* MainViewModel.swift */; };
+		1AE5F07329913B410050EF40 /* PerxChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F07229913B410050EF40 /* PerxChallengeTests.swift */; };
+		1AE5F07A29913E2C0050EF40 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5F07929913E2C0050EF40 /* .gitignore */; };
+		1AE5F07C29913E610050EF40 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5F07B29913E610050EF40 /* README.md */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AE5F07429913B410050EF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AE5F02D29910E5E0050EF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE5F03429910E5E0050EF40;
+			remoteInfo = PerxChallenge;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1AE5F03529910E5E0050EF40 /* PerxChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerxChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE5F03829910E5E0050EF40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AE5F03A29910E5E0050EF40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1AE5F03C29910E5E0050EF40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1AE5F03F29910E5E0050EF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AE5F04129910E5F0050EF40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AE5F04429910E5F0050EF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AE5F04629910E5F0050EF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE5F04C29910F180050EF40 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1AE5F04E29910F2B0050EF40 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1AE5F0502991135D0050EF40 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		1AE5F052299114980050EF40 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1AE5F05629911CC70050EF40 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		1AE5F058299120F20050EF40 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		1AE5F05A2991210F0050EF40 /* SearchResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultTableViewCell.xib; sourceTree = "<group>"; };
+		1AE5F05D2991302C0050EF40 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1AE5F05F299130470050EF40 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		1AE5F0622991306C0050EF40 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		1AE5F064299130730050EF40 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1AE5F066299130B40050EF40 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		1AE5F068299130E10050EF40 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		1AE5F07029913B410050EF40 /* PerxChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerxChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE5F07229913B410050EF40 /* PerxChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerxChallengeTests.swift; sourceTree = "<group>"; };
+		1AE5F07929913E2C0050EF40 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1AE5F07B29913E610050EF40 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1AE5F03229910E5E0050EF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE5F06D29913B410050EF40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +88,10 @@
 		1AE5F02C29910E5E0050EF40 = {
 			isa = PBXGroup;
 			children = (
+				1AE5F07B29913E610050EF40 /* README.md */,
+				1AE5F07929913E2C0050EF40 /* .gitignore */,
 				1AE5F03729910E5E0050EF40 /* PerxChallenge */,
+				1AE5F07129913B410050EF40 /* PerxChallengeTests */,
 				1AE5F03629910E5E0050EF40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1AE5F03529910E5E0050EF40 /* PerxChallenge.app */,
+				1AE5F07029913B410050EF40 /* PerxChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +108,67 @@
 		1AE5F03729910E5E0050EF40 /* PerxChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				1AE5F061299130610050EF40 /* MVVM */,
+				1AE5F05C2991301F0050EF40 /* Detail */,
+				1AE5F05529911BDF0050EF40 /* Models */,
+				1AE5F05429911BDA0050EF40 /* Cells */,
 				1AE5F03829910E5E0050EF40 /* AppDelegate.swift */,
-				1AE5F03A29910E5E0050EF40 /* SceneDelegate.swift */,
 				1AE5F03C29910E5E0050EF40 /* ViewController.swift */,
 				1AE5F03E29910E5E0050EF40 /* Main.storyboard */,
 				1AE5F04129910E5F0050EF40 /* Assets.xcassets */,
 				1AE5F04329910E5F0050EF40 /* LaunchScreen.storyboard */,
 				1AE5F04629910E5F0050EF40 /* Info.plist */,
+				1AE5F04C29910F180050EF40 /* MainViewController.swift */,
+				1AE5F04E29910F2B0050EF40 /* MainViewController.xib */,
+				1AE5F0502991135D0050EF40 /* NetworkClient.swift */,
+				1AE5F052299114980050EF40 /* Constants.swift */,
+				1AE5F068299130E10050EF40 /* MainViewModel.swift */,
 			);
 			path = PerxChallenge;
+			sourceTree = "<group>";
+		};
+		1AE5F05429911BDA0050EF40 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1AE5F058299120F20050EF40 /* SearchResultTableViewCell.swift */,
+				1AE5F05A2991210F0050EF40 /* SearchResultTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1AE5F05529911BDF0050EF40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AE5F05629911CC70050EF40 /* SearchResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1AE5F05C2991301F0050EF40 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1AE5F05D2991302C0050EF40 /* DetailViewController.swift */,
+				1AE5F05F299130470050EF40 /* DetailViewController.xib */,
+				1AE5F066299130B40050EF40 /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		1AE5F061299130610050EF40 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				1AE5F0622991306C0050EF40 /* BaseViewModel.swift */,
+				1AE5F064299130730050EF40 /* BaseViewController.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		1AE5F07129913B410050EF40 /* PerxChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE5F07229913B410050EF40 /* PerxChallengeTests.swift */,
+			);
+			path = PerxChallengeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +191,24 @@
 			productReference = 1AE5F03529910E5E0050EF40 /* PerxChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1AE5F06F29913B410050EF40 /* PerxChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE5F07629913B410050EF40 /* Build configuration list for PBXNativeTarget "PerxChallengeTests" */;
+			buildPhases = (
+				1AE5F06C29913B410050EF40 /* Sources */,
+				1AE5F06D29913B410050EF40 /* Frameworks */,
+				1AE5F06E29913B410050EF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE5F07529913B410050EF40 /* PBXTargetDependency */,
+			);
+			name = PerxChallengeTests;
+			productName = PerxChallengeTests;
+			productReference = 1AE5F07029913B410050EF40 /* PerxChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +221,10 @@
 				TargetAttributes = {
 					1AE5F03429910E5E0050EF40 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					1AE5F06F29913B410050EF40 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1AE5F03429910E5E0050EF40;
 					};
 				};
 			};
@@ -116,6 +242,7 @@
 			projectRoot = "";
 			targets = (
 				1AE5F03429910E5E0050EF40 /* PerxChallenge */,
+				1AE5F06F29913B410050EF40 /* PerxChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +253,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AE5F04529910E5F0050EF40 /* LaunchScreen.storyboard in Resources */,
+				1AE5F07A29913E2C0050EF40 /* .gitignore in Resources */,
+				1AE5F060299130470050EF40 /* DetailViewController.xib in Resources */,
+				1AE5F05B2991210F0050EF40 /* SearchResultTableViewCell.xib in Resources */,
 				1AE5F04229910E5F0050EF40 /* Assets.xcassets in Resources */,
 				1AE5F04029910E5E0050EF40 /* Main.storyboard in Resources */,
+				1AE5F07C29913E610050EF40 /* README.md in Resources */,
+				1AE5F04F29910F2B0050EF40 /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE5F06E29913B410050EF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,13 +277,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE5F059299120F20050EF40 /* SearchResultTableViewCell.swift in Sources */,
+				1AE5F053299114980050EF40 /* Constants.swift in Sources */,
+				1AE5F04D29910F180050EF40 /* MainViewController.swift in Sources */,
+				1AE5F05729911CC70050EF40 /* SearchResponse.swift in Sources */,
 				1AE5F03D29910E5E0050EF40 /* ViewController.swift in Sources */,
+				1AE5F065299130730050EF40 /* BaseViewController.swift in Sources */,
+				1AE5F0632991306C0050EF40 /* BaseViewModel.swift in Sources */,
 				1AE5F03929910E5E0050EF40 /* AppDelegate.swift in Sources */,
-				1AE5F03B29910E5E0050EF40 /* SceneDelegate.swift in Sources */,
+				1AE5F0512991135D0050EF40 /* NetworkClient.swift in Sources */,
+				1AE5F067299130B40050EF40 /* DetailViewModel.swift in Sources */,
+				1AE5F05E2991302C0050EF40 /* DetailViewController.swift in Sources */,
+				1AE5F069299130E10050EF40 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE5F06C29913B410050EF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE5F07329913B410050EF40 /* PerxChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AE5F07529913B410050EF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE5F03429910E5E0050EF40 /* PerxChallenge */;
+			targetProxy = 1AE5F07429913B410050EF40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1AE5F03E29910E5E0050EF40 /* Main.storyboard */ = {
@@ -334,6 +498,48 @@
 			};
 			name = Release;
 		};
+		1AE5F07729913B410050EF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.James.PerxChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerxChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PerxChallenge";
+			};
+			name = Debug;
+		};
+		1AE5F07829913B410050EF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.James.PerxChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerxChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PerxChallenge";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -351,6 +557,15 @@
 			buildConfigurations = (
 				1AE5F04A29910E5F0050EF40 /* Debug */,
 				1AE5F04B29910E5F0050EF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE5F07629913B410050EF40 /* Build configuration list for PBXNativeTarget "PerxChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE5F07729913B410050EF40 /* Debug */,
+				1AE5F07829913B410050EF40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
